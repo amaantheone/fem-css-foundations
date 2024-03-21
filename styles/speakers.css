@@ -49,8 +49,14 @@
   color: var(--color-text-on-secondary);
 }
 
-@media(width < 1000px ) {
+@media (width < 1000px) {
   .speakers_wrapper {
-    grid-template-columns: 1fr; 
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 840px) {
+  .nav {
+    background-color: var(--color-text-on-primary);
   }
 }
